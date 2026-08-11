@@ -173,17 +173,9 @@ Some commands may depend on the Linux distribution and installed system utilitie
 
 ## Example Output
 
+The following sanitized output demonstrates the script collecting basic network, process, memory, and service information.
 
-
-A sanitized screenshot of the script output will be added here.
-
-
-
-<!--
-
-!\[Info Extractor Output](images/info-extractor-demo.png)
-
--->
+![Info Extractor Output](images/info-extractor-demo.png)
 
 
 
