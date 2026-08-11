@@ -1,8 +1,8 @@
-\# Info Extractor
+# Info Extractor
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -18,7 +18,7 @@ The goal of the project was to practice Linux fundamentals, Bash scripting, comm
 
 
 
-\## Features
+## Features
 
 
 
@@ -26,61 +26,48 @@ The script collects and displays:
 
 
 
-\- Public IP address
+- Public IP address
 
-\- Private IP address
+- Private IP address
 
-\- Partially masked MAC address
+- Partially masked MAC address
 
-\- Top 5 processes by CPU usage
+- Top 5 processes by CPU usage
 
-\- Total and available memory
+- Total and available memory
 
-\- Currently running system services
+- Currently running system services
 
-\- Top 10 largest files in `/home`
+- Top 10 largest files in `/home`
 
 
 
-\## Technologies \& Commands
+## Technologies \& Commands
 
 
 
 | Tool / Command | Purpose |
-
 |----------------|---------|
-
 | Bash | Script execution and automation |
-
 | curl | Public IP retrieval |
-
 | ifconfig | Network interface information |
-
 | grep | Text filtering |
-
 | awk | Text and column processing |
-
 | ps | Process information |
-
 | head | Output limiting |
-
 | free | Memory statistics |
-
 | service | System service information |
-
 | find | File discovery |
-
 | du | File size calculation |
-
 | sort | Sorting command output |
 
 
 
-\## How It Works
+## How It Works
 
 
 
-\### Network Information
+### Network Information
 
 
 
@@ -92,7 +79,7 @@ For privacy, part of the MAC address is masked before it is displayed.
 
 
 
-\### CPU Usage
+### CPU Usage
 
 
 
@@ -100,7 +87,7 @@ The script lists the five processes currently consuming the most CPU resources.
 
 
 
-\### Memory Usage
+### Memory Usage
 
 
 
@@ -108,7 +95,7 @@ Total and available system memory are displayed in a human-readable format.
 
 
 
-\### Running Services
+### Running Services
 
 
 
@@ -116,7 +103,7 @@ Active system services are identified and displayed to provide an overview of se
 
 
 
-\### Filesystem Analysis
+### Filesystem Analysis
 
 
 
@@ -124,7 +111,7 @@ The script searches `/home` and displays the ten largest files, sorted by size.
 
 
 
-\## Usage
+## Usage
 
 
 
@@ -184,7 +171,7 @@ Some commands may depend on the Linux distribution and installed system utilitie
 
 
 
-\## Example Output
+## Example Output
 
 
 
@@ -196,11 +183,11 @@ A sanitized screenshot of the script output will be added here.
 
 !\[Info Extractor Output](images/info-extractor-demo.png)
 
-\-->
+-->
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -226,7 +213,7 @@ info-extractor/
 
 
 
-\## Security \& Privacy
+## Security \& Privacy
 
 
 
@@ -242,7 +229,7 @@ Screenshots and documentation included in this repository should not contain cre
 
 
 
-\## What I Learned
+## What I Learned
 
 
 
@@ -250,27 +237,27 @@ Through this project I practiced:
 
 
 
-\- Bash scripting fundamentals
+- Bash scripting fundamentals
 
-\- Linux command-line administration
+- Linux command-line administration
 
-\- Pipes and command chaining
+- Pipes and command chaining
 
-\- Text processing with `grep` and `awk`
+- Text processing with `grep` and `awk`
 
-\- Network interface inspection
+- Network interface inspection
 
-\- Process and memory monitoring
+- Process and memory monitoring
 
-\- Service enumeration
+- Service enumeration
 
-\- Filesystem analysis
+- Filesystem analysis
 
-\- Handling sensitive information in system output
+- Handling sensitive information in system output
 
 
 
-\## Project Documentation
+## Project Documentation
 
 
 
@@ -278,11 +265,11 @@ The original project report with explanations of the commands and their purpose 
 
 
 
-\[View the project report](docs/info-extractor-report.pdf)
+[View the project report](docs/info-extractor-report.pdf)
 
 
 
-\## Disclaimer
+## Disclaimer
 
 
 
