@@ -42,7 +42,7 @@ The script collects and displays:
 
 
 
-## Technologies \& Commands
+## Technologies & Commands
 
 
 
@@ -192,28 +192,19 @@ A sanitized screenshot of the script output will be added here.
 
 
 ```text
-
 info-extractor/
-
 ├── README.md
-
 ├── src/
-
 │   └── info-extractor.sh
-
 ├── docs/
-
 │   └── info-extractor-report.pdf
-
 └── images/
-
-&#x20;   └── info-extractor-demo.png
-
+    └── info-extractor-demo.png
 ```
 
 
 
-## Security \& Privacy
+## Security & Privacy
 
 
 
