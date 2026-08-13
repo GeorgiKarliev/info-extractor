@@ -110,6 +110,16 @@ Active system services are identified and displayed to provide an overview of se
 The script searches `/home` and displays the ten largest files, sorted by size.
 
 
+## Requirements
+
+- Linux operating system
+- Bash
+- curl
+- net-tools (`ifconfig`)
+- Standard GNU/Linux utilities such as `grep`, `awk`, `ps`, `free`, `find`, `du`, and `sort`
+
+The script was developed and tested in a Linux environment.
+
 
 ## Usage
 
@@ -185,6 +195,7 @@ The following sanitized output demonstrates the script collecting basic network,
 
 ```text
 info-extractor/
+├── .gitattributes
 ├── README.md
 ├── src/
 │   └── info-extractor.sh
@@ -251,6 +262,14 @@ The original project report with explanations of the commands and their purpose 
 [View the project report](docs/info-extractor-report.pdf)
 
 
+
+## Known Limitations
+
+- Accessing files under `/home` may produce permission errors when the current user does not have permission to read certain directories.
+- Public IP detection requires an active Internet connection.
+- Some commands, such as `ifconfig` and `service`, may not be available by default on every Linux distribution.
+
+  
 
 ## Disclaimer
 
